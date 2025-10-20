@@ -1,63 +1,63 @@
 header {
-    top: 0;
-    width: 100%;
-    text-align: center;
+  top: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .tabla {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    width: 100%;
-    overflow-x: auto;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #1e1e1e;
-    color: white;
-    font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 .numero {
-    position: absolute;
-    top: -5%;
-    left: 10%;
-    text-align: left;
-    font-size: 10px;
+  position: absolute;
+  top: -5%;
+  left: 10%;
+  text-align: left;
+  font-size: 10px;
 }
 
 .simbolo {
-    font-size: 20px;
-    font-weight: bold;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: fit-content;
-    height: fit-content;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  height: fit-content;
 }
 
 .nombre {
-    font-size: 10px;
-    margin: auto;
-    position: absolute;
-    bottom: 6%;
-    left: 0px;
-    right: 0px;
-    width: fit-content;
+  font-size: 10px;
+  margin: auto;
+  position: absolute;
+  bottom: 6%;
+  left: 0px;
+  right: 0px;
+  width: fit-content;
 }
 
 .masa {
-    position: absolute;
-    top: -5%;
-    right: 10%;
-    text-align: right;
-    font-size: 10px;
+  position: absolute;
+  top: -5%;
+  right: 10%;
+  text-align: right;
+  font-size: 10px;
 }
 
 
@@ -71,81 +71,81 @@ body {
 .gas-noble,
 .post-transicion,
 .lantanidos {
-    text-align: center;
-    position: relative;
-    padding: 4px;
-    font-size: 12px;
-    width: 50px;
-    height: 80px;
-    margin: 2px;
-    flex-shrink: 0;
+  text-align: center;
+  position: relative;
+  padding: 4px;
+  font-size: 12px;
+  width: 50px;
+  height: 80px;
+  margin: 2px;
+  flex-shrink: 0;
 }
 
 .alcalinos {
-    color: #e2eeff;
-    background-color: #244d57;
+  color: #e2eeff;
+  background-color: #244d57;
 }
 
 .metaloide {
-    color: #fff4e5;
-    background-color: #523e1b;
+  color: #fff4e5;
+  background-color: #523e1b;
 }
 
 .Actinoides {
-    color: #fff4e5;
-    background-color: #613b28;
+  color: #fff4e5;
+  background-color: #613b28;
 }
 
 .alcalinoterros {
-    color: #fff4e5;
-    background-color: #622e39;
+  color: #fff4e5;
+  background-color: #622e39;
 }
 
 .no-metal {
-    color: #e2eeff;
-    background-color: #2a4165;
+  color: #e2eeff;
+  background-color: #2a4165;
 }
 
 .desconocidos {
-    color: #fff4e5;
-    background-color: #46474c;
+  color: #fff4e5;
+  background-color: #46474c;
 }
 
 .transicion {
-    color: #fff4e5;
-    background-color: #433c65;
+  color: #fff4e5;
+  background-color: #433c65;
 }
 
 .gas-noble {
-    color: #e2eeff;
-    background-color: #623842;
+  color: #e2eeff;
+  background-color: #623842;
 }
 
 .post-transicion {
-    color: #fff4e5;
-    background-color: #2f4d47;
+  color: #fff4e5;
+  background-color: #2f4d47;
 }
 
 .lantanidos {
-    color: #fff4e5;
-    background-color: #004a77;
+  color: #fff4e5;
+  background-color: #004a77;
 }
 
 .left,
 .right {
-    margin: 0;
-    float: none;
-    display: flex;
+  margin: 0;
+  float: none;
+  display: flex;
 }
 
 footer {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #2a4165;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #2a4165;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 .fila1,
@@ -157,41 +157,49 @@ footer {
 .fila7,
 .fila8,
 .fila9 {
-    display: flex;
+  display: flex;
 }
 
 .e1 {
-    width: 1021px;
-    flex-shrink: 0;
+  width: 1021px;
+  flex-shrink: 0;
 }
 
 .e2 {
-    width: 650px;
-    flex-shrink: 0;
+  width: 650px;
+  flex-shrink: 0;
 }
 
 .e3 {
-    width: 30px;
-    flex-shrink: 0;
+  width: 30px;
+  flex-shrink: 0;
 }
 
 .fila8 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .colores {
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
 }
 
-.grupo1, .grupo2, .grupo3, .grupo4, .grupo5,
-.grupo6, .grupo7, .grupo8, .grupo9, .grupo10 {
-    display: flex;
-    align-items: center;
-    margin: 5px 15px;
+.grupo1,
+.grupo2,
+.grupo3,
+.grupo4,
+.grupo5,
+.grupo6,
+.grupo7,
+.grupo8,
+.grupo9,
+.grupo10 {
+  display: flex;
+  align-items: center;
+  margin: 5px 15px;
 }
 
 .s_alcalinos,
@@ -204,62 +212,69 @@ footer {
 .s_gas-noble,
 .s_post-transicion,
 .s_lantanidos {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-    flex-shrink: 0;
+  margin-right: 8px;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
 }
 
 .numero-e {
-    margin: 0; 
+  margin: 0;
+}
+
+.colores > p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .s_alcalinos {
-    color: #e2eeff;
-    background-color: #244d57;
+  color: #e2eeff;
+  background-color: #244d57;
 }
 
 .s_metaloide {
-    color: #fff4e5;
-    background-color: #523e1b;
+  color: #fff4e5;
+  background-color: #523e1b;
 }
 
 .s_Actinoides {
-    color: #fff4e5;
-    background-color: #613b28;
+  color: #fff4e5;
+  background-color: #613b28;
 }
 
 .s_alcalinoterros {
-    color: #fff4e5;
-    background-color: #622e39;
+  color: #fff4e5;
+  background-color: #622e39;
 }
 
 .s_no-metal {
-    color: #e2eeff;
-    background-color: #2a4165;
+  color: #e2eeff;
+  background-color: #2a4165;
 }
 
 .s_desconocidos {
-    color: #fff4e5;
-    background-color: #46474c;
+  color: #fff4e5;
+  background-color: #46474c;
 }
 
 .s_transicion {
-    color: #fff4e5;
-    background-color: #433c65;
+  color: #fff4e5;
+  background-color: #433c65;
 }
 
 .s_gas-noble {
-    color: #e2eeff;
-    background-color: #623842;
+  color: #e2eeff;
+  background-color: #623842;
 }
 
 .s_post-transicion {
-    color: #fff4e5;
-    background-color: #2f4d47;
+  color: #fff4e5;
+  background-color: #2f4d47;
 }
 
 .s_lantanidos {
-    color: #fff4e5;
-    background-color: #004a77;
+  color: #fff4e5;
+  background-color: #004a77;
 }
+
