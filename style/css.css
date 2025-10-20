@@ -1,0 +1,253 @@
+header {
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.tabla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+
+.numero {
+  position: absolute;
+  top: -5%;
+  left: 10%;
+  text-align: left;
+  font-size: 10px;
+}
+
+.simbolo {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+.nombre {
+  font-size: 10px;
+  margin: auto;
+  position: absolute;
+  bottom: 6%;
+  left: 0px;
+  right: 0px;
+  width: fit-content;
+
+}
+
+.masa {
+  position: absolute;
+  top: -5%;
+  right: 10%;
+  text-align: right;
+  font-size: 10px;
+}
+
+
+.alcalinos,
+.metaloide,
+.Actinoides,
+.alcalinoterros,
+.no-metal,
+.desconocidos,
+.transicion,
+.gas-noble,
+.post-transicion,
+.lantanidos {
+  text-align: center;
+  position: relative;
+  padding: 4px;
+  font-size: 12px;
+  width: 50px;
+  height: 80px;
+  margin: 2px;
+}
+
+.alcalinos {
+  color: #e2eeff;
+  background-color: #244d57;
+}
+
+.metaloide {
+  color: #fff4e5;
+  background-color: #523e1b;
+}
+
+.Actinoides {
+  color: #fff4e5;
+  background-color: #613b28;
+}
+
+.alcalinoterros {
+  color: #fff4e5;
+  background-color: #622e39;
+}
+
+.no-metal {
+  color: #e2eeff;
+  background-color: #2a4165;
+}
+
+.desconocidos {
+  color: #fff4e5;
+  background-color: #46474c;
+}
+
+.transicion {
+  color: #fff4e5;
+  background-color: #433c65;
+}
+
+.gas-noble {
+  color: #e2eeff;
+  background-color: #623842;
+}
+
+.post-transicion {
+  color: #fff4e5;
+  background-color: #2f4d47;
+}
+
+.lantanidos {
+  color: #fff4e5;
+  background-color: #004a77;
+}
+
+.left,
+.right {
+  margin: 0;
+  float: none;
+  display: flex;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #2a4165;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.fila1,
+.fila2,
+.fila3,
+.fila4,
+.fila5,
+.fila6,
+.fila7,
+.fila8,
+.fila9 {
+  display: flex;
+
+}
+
+.e1 {
+  width: 1021px;
+}
+
+.e2 {
+  width: 650px;
+}
+
+.e3 {
+  width: 30px;
+}
+
+.fila8 {
+  margin-top: 20px;
+}
+
+.s_alcalinos,
+.s_metaloide,
+.s_Actinoides,
+.s_alcalinoterros,
+.s_no-metal,
+.s_desconocidos,
+.s_transicion,
+.s_gas-noble,
+.s_post-transicion,
+.s_lantanidos {
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-left: 25px;
+}
+
+.numero-e {
+  float: left;
+  margin: -3px;
+  margin-left: 10px;
+}
+
+.s_alcalinos {
+  color: #e2eeff;
+  background-color: #244d57;
+}
+
+.s_metaloide {
+  color: #fff4e5;
+  background-color: #523e1b;
+}
+
+.s_Actinoides {
+  color: #fff4e5;
+  background-color: #613b28;
+}
+
+.s_alcalinoterros {
+  color: #fff4e5;
+  background-color: #622e39;
+}
+
+.s_no-metal {
+  color: #e2eeff;
+  background-color: #2a4165;
+}
+
+.s_desconocidos {
+  color: #fff4e5;
+  background-color: #46474c;
+}
+
+.s_transicion {
+  color: #fff4e5;
+  background-color: #433c65;
+}
+
+.s_gas-noble {
+  color: #e2eeff;
+  background-color: #623842;
+}
+
+.s_post-transicion {
+  color: #fff4e5;
+  background-color: #2f4d47;
+}
+
+.s_lantanidos {
+  color: #fff4e5;
+  background-color: #004a77;
+}
+
+.colores{
+  margin-bottom: 50px;
+}
