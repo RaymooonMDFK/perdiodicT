@@ -154,10 +154,18 @@ footer {
 .fila4,
 .fila5,
 .fila6,
-.fila7,
+.fila7 {
+    display: flex;
+}
+
 .fila8,
 .fila9 {
-  display: flex;
+    display: flex;
+    align-self: center;
+}
+
+.fila8 {
+    margin-top: 20px;
 }
 
 .e1 {
@@ -175,9 +183,8 @@ footer {
   flex-shrink: 0;
 }
 
-.fila8 {
-  margin-top: 20px;
-}
+
+
 
 .colores {
   margin-bottom: 50px;
@@ -222,10 +229,10 @@ footer {
   margin: 0;
 }
 
-.colores > p {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
+.colores>p {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .s_alcalinos {
@@ -278,3 +285,9 @@ footer {
   background-color: #004a77;
 }
 
+@media (min-width: 1024px) {
+
+    .tabla {
+        align-items: center;
+    }
+}
